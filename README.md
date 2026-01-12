@@ -30,35 +30,32 @@ This project demonstrates backend development, authentication, secure file handl
 
 ## 📂 Project Structure
 
-'''secure-file-sharing-nodejs/
-│
-├── public/                 # Frontend (UI)
+```
+secure-file-sharing-nodejs/
+├── public/                     # Frontend (UI)
 │   ├── login.html
 │   ├── upload.html
 │   ├── download.html
 │   └── style.css
 │
-├── data/                   # Application data (JSON storage)
+├── data/                       # Application data (JSON storage)
 │   ├── users.json
 │   └── files.json
 │
-├── uploads/                # Uploaded files (runtime)
-│   └── (auto-created files)
+├── uploads/                    # Uploaded files (runtime)
 │
-├── Screenshots/             # Screenshots for README
+├── Screenshots/                # Screenshots for README
 │   ├── login.jpg
 │   ├── upload-file.jpg
 │   ├── shareable-link.jpg
 │   ├── download-page.jpg
 │   └── run-localhost.jpg
 │
-├── server.js               # Main backend server
-├── package.json            # Dependencies & scripts
+├── server.js                   # Main backend server
+├── package.json                # Dependencies & scripts
 ├── package-lock.json
-└── README.md               # Project documentation '''
-
-
----
+└── README.md                   # Project documentation
+```
 
 ## 🖼 Application Screenshots
 
