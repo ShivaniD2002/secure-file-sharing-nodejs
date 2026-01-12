@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Download File</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="card">
+<h2>Download File</h2>
+<form action="/download" method="POST">
+<input type="hidden" name="id">
+<input type="password" name="password" placeholder="Enter File Password" required>
+<button>Download</button>
+</form>
+</div>
+<script>
+const p=new URLSearchParams(window.location.search);
+document.querySelector("input[name='id']").value=p.get("id");
+</script>
+</body>
+</html>
