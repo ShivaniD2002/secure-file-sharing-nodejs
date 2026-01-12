@@ -30,7 +30,7 @@ This project demonstrates backend development, authentication, secure file handl
 
 ## 📂 Project Structure
 
-secure-file-sharing-nodejs/
+'''secure-file-sharing-nodejs/
 │
 ├── public/                 # Frontend (UI)
 │   ├── login.html
@@ -55,7 +55,7 @@ secure-file-sharing-nodejs/
 ├── server.js               # Main backend server
 ├── package.json            # Dependencies & scripts
 ├── package-lock.json
-└── README.md               # Project documentation
+└── README.md               # Project documentation '''
 
 
 ---
